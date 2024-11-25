@@ -1,0 +1,299 @@
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Body */
+  body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .cta-button {
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 20px;
+  }
+  
+  .cta-button:hover {
+    background-color: #e67e22;
+  }
+  
+  /* Banner Section */
+  .banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 30px;
+    background-color: #2980b9;
+    color: white;
+  }
+  
+  .banner .left {
+    flex: 1;
+  }
+  
+  .banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .banner p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .banner .Right img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Clients Section */
+  .clients {
+    text-align: center;
+    padding: 50px 30px;
+    background-color: #ecf0f1;
+  }
+  
+  .clients h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .clients p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .client-logos img {
+    width: 120px;
+    margin: 0 15px;
+    border-radius: 5px;
+  }
+  
+  .client-logos p {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  /* Power of Blockchain Section */
+  .power-of-blockchain {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 30px;
+  }
+  
+  .power-of-blockchain .point {
+    text-align: center;
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .power-of-blockchain h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .power-of-blockchain img {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+  }
+  
+  /* Helping Blockchain Section */
+  .helping-blockchain {
+    text-align: center;
+    padding: 50px 30px;
+    background-color: #2980b9;
+    color: white;
+  }
+  
+  .helping-blockchain .stats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .helping-blockchain p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Blockchain Future Section */
+  .blockchain-future {
+    padding: 50px 30px;
+    background-color: #f4f4f4;
+  }
+  
+  .blockchain-future h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .future-items {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .card button {
+    background-color: #f39c12;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .card button:hover {
+    background-color: #e67e22;
+  }
+  
+  /* Contact Us Section */
+  .contact-us {
+    display: flex;
+    padding: 50px 30px;
+    background-color: #ecf0f1;
+  }
+  
+  .contact-us .left img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .contact-us .Right {
+    flex: 1;
+    padding-left: 30px;
+  }
+  
+  .contact-us h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-us form input,
+  .contact-us form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-us form button {
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .contact-us form button:hover {
+    background-color: #e67e22;
+  }
+  
+  /* Footer Section */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+  }
+  
+  .socail-icons a {
+    color: white;
+    margin: 0 10px;
+    text-decoration:underline;
+    justify-content: center;
+  }
+  
+  .socail-icons a:hover {
+    color: #f39c12;
+  }
+  
+  .links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .links a:hover {
+    color: #f39c12;
+  }
+  
+  .footer p {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .footer.logo{
+    font-size: 30px;
+margin-right: 15px;
+margin-top: 10px;
+
+
+
+  }
